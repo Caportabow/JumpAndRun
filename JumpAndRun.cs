@@ -183,7 +183,18 @@ class Program
             }
             
             
-            // Schritt 7: Kamera    Schritt 8: Ziel und Loch
+            // Schritt 7: Kamera
+            kameraX = spielerX - (sichtBreite / 2);
+            if (kameraX < 0)
+            {
+                kameraX = 0;
+            }
+            if (kameraX > level[0].Length - sichtBreite)
+            {
+                kameraX = level[0].Length - sichtBreite;
+            }
+            
+            // Schritt 8: Ziel und Loch
 
             // 3. Zeichnen
             ZeichneBild();

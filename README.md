@@ -96,7 +96,7 @@ Das Projekt ist in drei Etappen mit insgesamt 15 Schritten unterteilt.
 - [x] Schritt 4: Laufen
 - [x] Schritt 5: Schwerkraft
 - [x] Schritt 6: Springen
-- [ ] Schritt 7: Kamera mitscrollen
+- [x] Schritt 7: Kamera mitscrollen
 - [ ] Schritt 8: Ziel und Loch
 
 ### Etappe 2 – Ausbau
