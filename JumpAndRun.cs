@@ -108,6 +108,22 @@ class Program
     static void ZeichneBild()
     {
         // Schritt 2
+        for (int y = 0; y < level.Length; y++)
+        {
+            string zeile = "";
+            for (int x = 0; x < level[0].Length; x++)
+            {
+                if (x == spielerX && y == spielerY)
+                {
+                    zeile = zeile + "@";
+                }
+                else
+                {
+                    zeile = zeile + level[y][x];
+                }
+            }
+            Schreibe(0, y, zeile.Substring(kameraX, sichtBreite));
+        }
     }
 
     static bool IstFrei(int x, int y)
