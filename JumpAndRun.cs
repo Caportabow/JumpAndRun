@@ -149,7 +149,17 @@ class Program
             {
                 spielVorbei = true;
             }
-            // Schritt 4: laufen    Schritt 6: springen
+            // Schritt 4: laufen
+            if ((taste == ConsoleKey.LeftArrow) && IstFrei(spielerX - 1, spielerY))
+            {
+                spielerX--;
+            }
+            if ((taste == ConsoleKey.RightArrow) && IstFrei(spielerX + 1, spielerY))
+            {
+                spielerX++;
+            }
+            
+            // Schritt 6: springen
 
             // 2. Aktualisieren
             // Schritt 5: Schwerkraft    Schritt 7: Kamera    Schritt 8: Ziel und Loch

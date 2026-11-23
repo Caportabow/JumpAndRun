@@ -92,8 +92,8 @@ Das Projekt ist in drei Etappen mit insgesamt 15 Schritten unterteilt.
 
 - [x] Schritt 1: Startgerüst zum Laufen bringen
 - [x] Schritt 2: Ausschnitt zeichnen
-- [ ] Schritt 3: Freie Felder erkennen
-- [ ] Schritt 4: Laufen
+- [x] Schritt 3: Freie Felder erkennen
+- [x] Schritt 4: Laufen
 - [ ] Schritt 5: Schwerkraft
 - [ ] Schritt 6: Springen
 - [ ] Schritt 7: Kamera mitscrollen
