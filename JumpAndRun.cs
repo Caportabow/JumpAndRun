@@ -128,7 +128,10 @@ class Program
 
     static bool IstFrei(int x, int y)
     {
-        // Schritt 3
+        if (x < 0 || x >= level[0].Length || y < 0 || y >= level.Length)
+        {
+            return false;
+        }
         return true;
     }
 
