@@ -132,7 +132,8 @@ class Program
         {
             return false;
         }
-        return true;
+
+        return level[y][x] == ' ';
     }
 
     // ================= Das Spiel =================
