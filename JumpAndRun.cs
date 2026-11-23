@@ -160,7 +160,7 @@ class Program
             }
             
             // Schritt 6: springen
-            if (taste == ConsoleKey.UpArrow && sprung == 0)
+            if (taste == ConsoleKey.UpArrow && sprung == 0 && !IstFrei(spielerX, spielerY + 1))
             {
                 sprung = 3;
             }
