@@ -162,7 +162,14 @@ class Program
             // Schritt 6: springen
 
             // 2. Aktualisieren
-            // Schritt 5: Schwerkraft    Schritt 7: Kamera    Schritt 8: Ziel und Loch
+            // Schritt 5: Schwerkraft
+            if (IstFrei(spielerX, spielerY + 1))
+            {
+                spielerY++;
+            }
+            
+            
+            // Schritt 7: Kamera    Schritt 8: Ziel und Loch
 
             // 3. Zeichnen
             ZeichneBild();

@@ -94,7 +94,7 @@ Das Projekt ist in drei Etappen mit insgesamt 15 Schritten unterteilt.
 - [x] Schritt 2: Ausschnitt zeichnen
 - [x] Schritt 3: Freie Felder erkennen
 - [x] Schritt 4: Laufen
-- [ ] Schritt 5: Schwerkraft
+- [x] Schritt 5: Schwerkraft
 - [ ] Schritt 6: Springen
 - [ ] Schritt 7: Kamera mitscrollen
 - [ ] Schritt 8: Ziel und Loch
