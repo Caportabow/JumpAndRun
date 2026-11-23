@@ -160,10 +160,24 @@ class Program
             }
             
             // Schritt 6: springen
+            if (taste == ConsoleKey.UpArrow && sprung == 0)
+            {
+                sprung = 3;
+            }
+
+            if (sprung > 0)
+            {
+                if (IstFrei(spielerX, spielerY - 1))
+                {
+                    spielerY--;
+                }
+
+                sprung--;
+            }
 
             // 2. Aktualisieren
             // Schritt 5: Schwerkraft
-            if (IstFrei(spielerX, spielerY + 1))
+            if (sprung == 0 && IstFrei(spielerX, spielerY + 1))
             {
                 spielerY++;
             }
