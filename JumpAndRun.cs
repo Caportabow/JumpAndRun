@@ -195,6 +195,16 @@ class Program
             }
             
             // Schritt 8: Ziel und Loch
+            if (spielerY >= level.Length - 1)
+            {
+                Schreibe(0, level.Length + 1, "Ins Loch gefallen!");
+                spielVorbei = true;
+            }
+            if (level[spielerY][spielerX] == 'F')
+            {
+                Schreibe(0, level.Length + 1, "Gewonnen!");
+                spielVorbei = true;
+            }
 
             // 3. Zeichnen
             ZeichneBild();
